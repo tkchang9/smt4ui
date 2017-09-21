@@ -1,0 +1,75 @@
+body {
+  background-color: #322A2A;
+  background-size: 80px 80px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+  margin: auto;
+  max-width: 900px;
+}
+
+img {
+  height: 100%;
+}
+
+.topBar {
+  font-family: 'Source Code Pro', monospace;
+  background-color: lightgrey;
+}
+.topBar p {
+  border-bottom: 3px solid black;
+  text-align: right;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 1%;
+}
+.tWindow {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFAA0F;
+  border-top: 20px solid black;
+  padding: 1%;
+}
+.titleWindow {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.6em;
+  width: 70%;
+  float: left;
+  text-align: center;
+}
+.titleWindow h3 {
+  font-size: 20px;
+  line-height: .2em;
+}
+.titleWindow h1 {
+  font-size: 70px;
+  font-family: 'Yu Gothic';
+  line-height: .6em;
+}
+.rightImage {
+  float: right;
+  /* Rectangle 4 */
+  width: 26%;
+  height: 450px;
+  background: #C4C4C4;
+  overflow: hidden;
+}
+.bottomImage {
+  float: right;
+  /* Rectangle 5 */
+  width: 55%;
+  height: 350px;
+  background: #C4C4C4;
+  overflow: hidden;
+}
+.longWindow {
+  float: left;
+  /* Rectangle */
+  width: 35%;
+  height: 600px;
+}
+.smallWindow {
+  float: left;
+  /* Rectangle */
+  width: 33%;
+}
